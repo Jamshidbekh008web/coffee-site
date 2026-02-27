@@ -1,3 +1,19 @@
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.rubik{
+  font-family: "Rubik", sans-serif;
+  
+  
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -36,6 +52,41 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 28.5px ;
+  padding-bottom: 33px;
+}
+
+.site-nav {
+}
+
+.nav-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.sayt-logo {
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+  a{
+      font-family: "Rubik", sans-serif;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: -0.33px;
+      color: white;
+
+  }
+}
+.nav-links a:hover {
+  color: #F39C11;
+}
+.nav-icons {
+  display: flex;
+  gap: 26px;
 }
 
 /* main style */
