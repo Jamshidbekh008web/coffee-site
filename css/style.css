@@ -232,7 +232,7 @@ margin-top: 29px;
 }
 .menu-card-app {
   display: flex;
-  gap: 40px;
+  justify-content: space-around;
   
 }
 .menu-card {
@@ -256,6 +256,7 @@ margin-top: 29px;
 }
 .menu-card-text{
      font-family: "Rubik", sans-serif;
+     color: #555555;
 font-size: 20px;
 line-height: 25px;
 margin-bottom: 27px;
@@ -330,7 +331,33 @@ margin-bottom: 17px;
     line-height: 20px;
 }
 
+.menu-card{
+  width: 338px;
+  img{
+    width: 304px;
+  }
+  h4{
+    font-size: 25px;
 
+  }
+p{
+  font-size: 15px;
+}
+}
+.res img{
+  width: 30px;
+  height: 30px;
+}
+.karz {
+span{
+  font-size: 35px;
+}
+button{
+  width: 146px;
+  padding: 15px 15px;
+  font-size: 15px;
+}
+}
 }
 
 @media (max-width:768px) {
@@ -378,6 +405,42 @@ margin-bottom: 2px;
   width: 300px;
     font-size: 15px;
     line-height: 20px;
+}
+.menu-container{
+  flex-wrap: wrap;
+}
+.menu-card-app{
+  padding: 0 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu-card{
+  width: 268px;
+  img{
+    width: 244px;
+  }
+  h4{
+    font-size: 20px;
+
+  }
+p{
+  font-size: 15px;
+}
+}
+.res img{
+  width: 30px;
+  height: 30px;
+}
+.karz {
+span{
+  font-size: 35px;
+}
+button{
+  width: 146px;
+  height: 50px;
+  padding: 8px 15px;
+  font-size: 15px;
+}
 }
 
 
@@ -433,6 +496,36 @@ header{
   .possib-text{
     margin-bottom: 15px;
   }
+  .menu-container{
+    text-align: center;
+    padding: 5px 0;
+  }
+ 
+  .menu-card-img{
+    width: 314px;
+    margin-bottom: 14px;
+  }
+  .menu-card-title{
+    font-size: 25px;
+    margin-bottom: ;
+  }
+
+  .karz {
+    margin-top: 15px;
+span{
+  font-size: 35px;
+}
+button{
+  width: 146px;
+  height: 50px;
+  padding: 8px 15px;
+  font-size: 15px;
+  img{
+    width: 30px;
+    height: 30px;
+  }
+}
+}
 
 
 }
