@@ -203,6 +203,93 @@ line-height: 25px;
 letter-spacing: -0.33px;
 }
 
+.menu {
+  padding:59px 50px 76px 50px ;
+
+}
+
+.menu-container {
+  width: 100%;
+  text-align: end;
+}
+.menu-title {
+  text-align: center;
+    font-family: "Lobster", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.33px;
+
+}
+.menu-btn {
+  width: 207px;
+  padding: 20px 30px;
+  background-color: #F39C11;
+  color: white;
+ font-family: "Rubik", sans-serif;
+ border-radius: 10px;
+margin-bottom: 21px;
+margin-top: 29px;
+}
+.menu-card-app {
+  display: flex;
+  gap: 40px;
+  
+}
+.menu-card {
+  text-align: start;
+  width: 444px;
+  padding: 24px 23px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+.menu-card-img{
+  border-radius: 20px;
+  margin-bottom: 21px;
+}
+.menu-card-title {
+   font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+
+}
+.menu-card-text{
+     font-family: "Rubik", sans-serif;
+font-size: 20px;
+line-height: 25px;
+margin-bottom: 27px;
+}
+.res {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 9px;
+}
+.karz {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span{
+         font-family: "Rubik", sans-serif;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+  }
+}
+.karz-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 182px;
+  padding: 20px 18.5px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #F39C11;
+  color: #F39C11;
+}
+
+
 
 /* responsive */
 
@@ -319,6 +406,8 @@ header{
 
   .mainer-mobile-img{
     display: block;
+    width: 300px;
+    height: 286px;
   }
   .mainer-title{
     font-size: 30px;
