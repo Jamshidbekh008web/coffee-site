@@ -43,9 +43,9 @@ body{
 }
 .container{
   width: 100%;
-  max-width: 1452px;
+  max-width: 1652px;
   margin: 0 auto ;
-  padding: 28px 50px ;
+  padding: 20px ;
 }
 /* header style */
 header{
@@ -115,19 +115,16 @@ align-items: center;
    
 }
 /* main style */
-main{
+main{ 
   flex-grow: 1 ;
+   padding-top: 82px ;
+  padding-bottom: 69px;
+   background-color: #FFF4D8;
 }
 .main-about {
-  background-color: #FFF4D8;
-
-
-}
-.mainer {
   display: flex;
-  gap: 135px;
   align-items: center;
-  padding: 82px 0;
+  justify-content: space-between;
 }
 
 .mainer-title {
@@ -142,6 +139,7 @@ main{
   display: none;
 }
 .mainer-text {
+  width: 554px;
   font-size: 20px;
   font-family: "Rubik",sans-serif;
   line-height: 30px;
@@ -151,16 +149,21 @@ main{
 }
 
 .mainer-btn {
+  width: 161px;
+  height: 60px;
   padding: 20px 30px;
   color: #FFFFFF;
   background-color: #F39C11;
   border-radius: 10px;
 }
+.mainer-desktop-img{
+  max-width: 643px;
+}
 
 
 /* responsive */
 
-@media (max-width: 900px) {
+@media (max-width: 1194px) {
   .sayt-logo{
     width: 160px;
     height: 75px;
@@ -171,6 +174,17 @@ main{
   }
   .title{
     font-size: 80px;
+  }
+  
+  .mainer-text{
+    line-height: 25px;
+    max-width: 370px;
+    font-size: 18px;
+margin-bottom: 17px;
+  }
+  .mainer-desktop-img{
+    width:450px ;
+    height:400px ;
   }
 }
 @media (max-width:768px) {
@@ -185,6 +199,23 @@ display: block;
   }
   .title{
     font-size: 60px;
+  }
+  .main-about{
+    gap:5px;
+  }
+  
+  .mainer-title{
+    margin-bottom: 3px;
+  }
+  .mainer-text{
+    line-height: 25px;
+    width: 300px;
+    font-size: 10px;
+margin-bottom: 2px;
+  }
+  .mainer-desktop-img{
+    width:387px ;
+    height:337px ;
   }
 
 }
@@ -205,6 +236,28 @@ header{
   }
   .title{
     font-size: 50px;
+  }
+  .main-about{
+    padding: 0 40px;
+  }
+  .mainer-mobile-img{
+    display: block;
+  }
+  .mainer-title{
+    font-size: 30px;
+    margin-bottom: 9px;
+  }
+  .about{
+    text-align: center;
+  }
+  .mainer-desktop-img{
+    display: none;
+  }
+  .mainer-text{
+    margin-top: 25px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 25px;
   }
 
 
