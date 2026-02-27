@@ -1,5 +1,6 @@
 
-.lobster-regular {
+ 
+ .lobster-regular {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -44,10 +45,12 @@ body{
   width: 100%;
   max-width: 1452px;
   margin: 0 auto ;
-  padding:0 20px ;
+  padding: 20px ;
 }
 /* header style */
 header{
+  display: flex;
+  flex-direction: column;
   height: 100vh; 
   background-image: url('../images/png/bacground-coffee.png');
   background-repeat: no-repeat;
@@ -96,7 +99,25 @@ align-items: center;
   display: flex;
   gap: 26px;
 }
+.hero{
 
+  flex-grow: 1;
+}
+.hero-container{
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title{
+
+   font-family: "Lobster", sans-serif;
+   font-size: 100px;
+   line-height: 100%;
+   color: white;
+   
+}
 /* main style */
 main{
   flex-grow: 1 ;
@@ -114,7 +135,9 @@ main{
     width: 50px;
     height: 50px;
   }
-  
+  .title{
+    font-size: 80px;
+  }
 }
 @media (max-width:768px) {
   
@@ -126,6 +149,10 @@ main{
 display: block;
 
   }
+  .title{
+    font-size: 60px;
+  }
+
 }
 @media (max-width:450px) {
 header{
@@ -139,6 +166,12 @@ header{
     width: 40px;
     height: 40px;
   } 
+  .nav-icons{
+    gap: 5px;
+  }
+  .title{
+    font-size: 50px;
+  }
 
 
 }
