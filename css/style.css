@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+input{
+  outline: none;
+}
+button{
+  border: none;
+}
+ul,ol{
+  text-decoration: none;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container{
+  width: 100%;
+  max-width: 1412px;
+  margin: 0 auto ;
+}
+/* header style */
+header{
+  height: 100vh; 
+  background-image: url('../images/png/bacground-coffee.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* main style */
+main{
+  flex-grow: 1 ;
+}
