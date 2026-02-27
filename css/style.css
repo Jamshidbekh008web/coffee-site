@@ -159,6 +159,49 @@ main{
 .mainer-desktop-img{
   max-width: 643px;
 }
+.featur{
+  background-color: #3D210C;
+  color: #FFF4D8;
+  text-align: center;
+  padding-top:52px ;
+  padding-bottom: 41px;
+}
+
+.featur-title{
+  font-size: 50px;
+  font-family: "Lobster", sans-serif;
+line-height: 50px;
+letter-spacing: -0.33px;
+color: #FFF4D8;
+margin-bottom: 33px;
+}
+.featur-possib{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.possib{
+ 
+  width: 286px;
+  text-align: center;
+}
+.possib-title{
+  font-weight: 600;
+  font-size:30px;
+    font-family: "Rubik", sans-serif;
+line-height: 35px;
+letter-spacing: -0.33px;
+margin-bottom: 16px;
+
+}
+.possib-text{
+  width: 287px;
+  text-align: center  ;
+      font-family: "Rubik", sans-serif;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.33px;
+}
 
 
 /* responsive */
@@ -186,7 +229,23 @@ margin-bottom: 17px;
     width:450px ;
     height:400px ;
   }
+
+  .possib-img{
+    width: 100px;
+    height: 100px;
+  }
+.possib-title{
+  line-height: 40px;
+
 }
+.possib-text{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+}
+
 @media (max-width:768px) {
   
   
@@ -217,6 +276,23 @@ margin-bottom: 2px;
     width:387px ;
     height:337px ;
   }
+  .featur-possib{
+    flex-wrap: wrap;
+  }
+    .possib-img{
+      margin-top: 20px;
+    width: 80px;
+    height: 80px;
+  }
+  .possib-title{
+    font-size: 24px;
+  }
+.possib-text{
+  width: 300px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
 
 }
 @media (max-width:450px) {
@@ -238,8 +314,9 @@ header{
     font-size: 50px;
   }
   .main-about{
-    padding: 0 40px;
+    padding: 82px 40px;
   }
+
   .mainer-mobile-img{
     display: block;
   }
@@ -258,6 +335,14 @@ header{
     text-align: center;
     line-height: 20px;
     margin-bottom: 25px;
+  }
+  .pas{
+    
+    border-bottom: 2px solid #FFF4D8;
+    
+  }
+  .possib-text{
+    margin-bottom: 15px;
   }
 
 
