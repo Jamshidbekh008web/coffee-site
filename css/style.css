@@ -42,8 +42,9 @@ body{
 }
 .container{
   width: 100%;
-  max-width: 1412px;
+  max-width: 1452px;
   margin: 0 auto ;
+  padding:0 20px ;
 }
 /* header style */
 header{
@@ -64,6 +65,13 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 
+}
+.narbar-left{
+display: flex;
+align-items: center;
+}
+.bar{
+  display: none;
 }
 .sayt-logo {
 }
@@ -92,4 +100,45 @@ justify-content: space-between;
 /* main style */
 main{
   flex-grow: 1 ;
+}
+
+
+/* responsive */
+
+@media (max-width: 900px) {
+  .sayt-logo{
+    width: 160px;
+    height: 75px;
+  }
+  .nav-icons a img{
+    width: 50px;
+    height: 50px;
+  }
+  
+}
+@media (max-width:768px) {
+  
+  
+  .nav-links{
+    display: none; 
+  }
+  .bar{
+display: block;
+
+  }
+}
+@media (max-width:450px) {
+header{
+    background-image: url('../images/png/header-bg-tel.png');
+  }
+  .sayt-logo{
+    width: 133px;
+    height: 63px;
+  }
+  .nav-icons a img{
+    width: 40px;
+    height: 40px;
+  } 
+
+
 }
