@@ -406,6 +406,10 @@ border: 1px solid black;
 		background-image: url('../images/png/header-bg-tel.png');
 	}
 
+.nav-icons {
+	gap: 10px;
+}
+
 	.title {
 		font-size: 40px;
 	}
