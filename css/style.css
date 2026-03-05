@@ -366,6 +366,27 @@ border: 1px solid black;
 }
 
 /* responsive */
+@media (max-width: 1330px) {
+	.mainer-desktop-img{
+		width: 543px;
+	}
+	.mainer-text{
+		width: 494px;
+	}
+}
+@media (max-width: 1120px) {
+	.main-about{
+		padding: 25px;
+	}
+	.mainer-desktop-img{
+		width: 403px;
+	}
+	.mainer-text{
+		width: 404px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+}
 
 @media (max-width: 900px) {
 	.nav-links {
@@ -402,6 +423,9 @@ border: 1px solid black;
 }
 
 @media (max-width: 500px) {
+	.sayt-logo{
+		width: 139px;
+	}
 	header {
 		background-image: url('../images/png/header-bg-tel.png');
 	}
